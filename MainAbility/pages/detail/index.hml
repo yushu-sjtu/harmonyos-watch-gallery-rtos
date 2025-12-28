@@ -1,0 +1,12 @@
+<div class="container">
+    <swiper class="swiper" index="{{currentIndex}}" loop="true" onclick="goBack" onchange="onSwipeChange">
+
+        <div class="swiper-item" for="{{(index, item) in imageList}}">
+
+            <image class="img" src="{{item}}"
+                   if="{{ (index >= currentIndex - 1) && (index <= currentIndex + 1) }}">
+            </image>
+
+        </div>
+    </swiper>
+</div>

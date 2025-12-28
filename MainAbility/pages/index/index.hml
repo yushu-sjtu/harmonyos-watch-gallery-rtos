@@ -1,0 +1,17 @@
+<div class="container">
+    <swiper class="outer-swiper" vertical="true" indicator="true" onchange="onPageChange">
+
+        <div class="swiper-page" for="{{(pageIndex, pageItems) in gridPages}}">
+
+            <div class="grid-container"
+                 if="{{ (pageIndex >= currentPage - 1) && (pageIndex <= currentPage + 1) }}">
+
+                <div class="grid-item" for="{{(innerIndex, item) in pageItems}}" onclick="openDetail(pageIndex, innerIndex)">
+                    <image src="{{item.thumb}}" class="thumbnail"></image>
+                </div>
+            </div>
+
+        </div>
+
+    </swiper>
+</div>

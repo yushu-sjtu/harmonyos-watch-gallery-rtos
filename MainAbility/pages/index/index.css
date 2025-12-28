@@ -1,0 +1,42 @@
+.container {
+  width: 466px;
+  height: 466px;
+  background-color: #000000;
+}
+
+/* 垂直 Swiper 占满全屏 */
+.outer-swiper {
+  width: 466px;
+  height: 466px;
+}
+
+/* 每一页容器 */
+.swiper-page {
+  width: 466px;
+  height: 466px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  width: 466px;
+  height: 466px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.grid-item {
+  width: 152px;
+  height: 152px;
+  margin: 0px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+}
