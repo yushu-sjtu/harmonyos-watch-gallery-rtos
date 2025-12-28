@@ -20,12 +20,7 @@
 
 ## 📺 功能演示
 
-<div align="center">
-  <video src="assets/demo.mp4" width="400" muted autoplay loop>
-    您的浏览器不支持 HTML5 视频播放。
-  </video>
-  <p><i>在模拟器上的运行效果</i></p>
-</div>
+https://github.com/user-attachments/assets/ca247286-cd3f-406f-a540-9b9b36d19dd0
 
 ## 📂 项目结构
 
@@ -68,12 +63,7 @@ The project has been fully verified on physical **Huawei Watch GT 6** hardware.
 
 ## 📺 Demo
 
-<div align="center">
-  <video src="assets/demo.mp4" width="400" muted autoplay loop>
-    Your browser does not support the video tag.
-  </video>
-  <p><i>Demo running on Simulator</i></p>
-</div>
+https://github.com/user-attachments/assets/ca247286-cd3f-406f-a540-9b9b36d19dd0
 
 ## 📂 Structure
 
